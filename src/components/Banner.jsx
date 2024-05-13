@@ -10,14 +10,15 @@ const Banner = ({ parallaxRef }) => {
   return (
     <Section crosses className="flex flex-col justify-center items-center">
       <Rings />
+  
       <div className="w-1/5 mb-1">
-   
-        <Lottie animationData={serverAnimation} />
+      <MouseParallax strength={0.07} parallaxContainerRef={parallaxRef}> 
+        <Lottie animationData={serverAnimation} /></MouseParallax>
       </div>
 
       <div className="relative z-1 max-w-[30rem] mx-auto text-center  ">
         <h1 className="h2 mb-3">
-          &ldquo;Join the Future of Crypto Investing&rdquo; <br />
+        Join the Future of Crypto Investing <br />
         </h1>
         <p className="body-1 max-w-3xl mx-auto mb-6 text-n-1 lg:mb-8">
           Upgrade your strategies and maximize your benefits with CoinProphet,

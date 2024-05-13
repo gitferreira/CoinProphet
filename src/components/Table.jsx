@@ -33,9 +33,9 @@ const Table = () => {
       <div className="w-1/3 mb-2"> 
   <input
     type="text"
-    placeholder="Search by Cryptocurrency"
+    placeholder=" Search by Cryptocurrency"
     onChange={(e) => setSearch(e.target.value)}
-    className="p-3 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl my-3 w-full text-left " 
+    className="p-3 bg-n-9/10 backdrop-blur border border-n-1/10 rounded-3xl my-3 w-full text-left " 
   />
 </div>
 
