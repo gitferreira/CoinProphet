@@ -7,6 +7,8 @@ import Card from "./Card";
 import { check, number2, number3 } from "../assets";
 import { numberIcons } from "../constants";
 import { Gradient } from "../design/Services";
+import Lottie from "lottie-react";
+import arrowAnimation from "../assets/arrow-animation.json";
 
 const Collaboration = () => {
   return (
@@ -34,11 +36,11 @@ const Collaboration = () => {
 
         </div>
 
-        <div className="hidden xl:flex lg:ml-auto xl:w-[38rem] mt-4  flex-col items-center justify-center">
+        <div className="hidden xl:flex lg:ml-auto xl:w-[38rem] mt-4  flex-col items-center justify-center ">
         <Gradient />
-          {/* <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
-          </p> */}
+            {/* <div className="absolute w-2/12 z-1 top-[50rem] left-[40rem] rotate-[330deg]">
+            <Lottie animationData={arrowAnimation}  />
+            </div> */}
           <div className="relative left-1/2 flex w-[40rem] aspect-square border border-n-1 rounded-full -translate-x-1/2 scale:75 md:scale-100">
             <ul>
               {collabCoins.map((item, index) => (

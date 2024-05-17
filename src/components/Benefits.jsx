@@ -22,7 +22,7 @@ const Benefits = () => {
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none  rounded-l-[2rem] rounded-b-[2rem] bg-reverse-table-gradient border border-n-1 border-3xl  ">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-1/80">{item.text} </p>
+                <p className="body-2 text-xl mb-6 text-n-1/80">{item.text} </p>
 
                 <div className="flex items-center mt-auto absolute bottom-[1rem] right-[1rem]">
                   <img

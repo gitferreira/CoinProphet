@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Banner from "./components/Banner";
 import Benefits from "./components/Benefits";
@@ -9,23 +10,16 @@ import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 import Table from "./components/Table";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
-        <Hero />
-        <Table />
-        <Benefits />
-        <Collaboration />
-        <Services />
-        <Banner />
-        <Pricing />
-        <Roadmap />
-        <Footer />
-      </div>
-      <ButtonGradient />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/course" element={<Table />} />
+      </Routes>
     </>
   );
 };

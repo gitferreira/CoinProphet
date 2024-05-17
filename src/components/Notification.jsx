@@ -1,5 +1,7 @@
 import { notification1 } from "../assets";
 import { notificationImages } from "../constants";
+import Lottie from "lottie-react";
+import coinAnimation from "../assets/coin-animation.json";
 
 const Notification = ({ className, title }) => {
   return (
@@ -8,7 +10,10 @@ const Notification = ({ className, title }) => {
         className || ""
       } flex items-center p-4 pr-6 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl gap-5 `}
     >
-        <img src = {notification1} width={62} height={62} alt='img' className="rounded-2xl" />
+      <div className="rounded-2xl w-[62px] h-[62px]">
+        <Lottie animationData={coinAnimation} className="absolute w-[130%] -top-[3.5rem] -left-[8.3rem]" />
+      </div>
+
       <div className="flex-1">
         <h6 className="mb-1 font-semibold text-base">{title}</h6>
         <div className="flex items-center justify-between">

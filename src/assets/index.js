@@ -75,12 +75,18 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import done2 from "../assets/checkGreen.svg";
+import cross from "../assets/cross.svg"
 import hero from "./roadmap/hero.png";
 import roadmap1 from "./roadmap/image-1.png";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
+
+import animation1 from "./how-to-use/animation-1.json"
+import animation2 from "./how-to-use/animation-2.json"
+import animation3 from "./how-to-use/animation-3.json"
+import animation4 from "./how-to-use/animation-4.json"
 
 import notification1 from "./notification/image-1.webp";
 import notification2 from "./notification/image-2.png";
@@ -181,11 +187,16 @@ export {
   stars,
   coins,
   done2,
+  cross,
   hero,
   roadmap1,
   roadmap2,
   roadmap3,
   roadmap4,
+  animation1,
+  animation2,
+  animation3,
+  animation4,
   undone,
   notification1,
   notification2,

@@ -30,6 +30,10 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
+  animation1,
+  animation2,
+  animation3,
+  animation4,
   searchMd,
   sliders04,
   telegram,
@@ -101,70 +105,61 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const dashboardFeatures = [
-{
-  id: '0',
-  title: 'Real-time Analytics',
-  number: check,
-},
-{
-  id: '1',
-  title: 'Customizable Widgets',
-  number: number2,
-},
-{
-  id: '2',
-  title: 'Portfolio Overview',
-  number: number3,
-},
-{
-  id: '3',
-  title: 'Advanced Charting Tools',
-  number: number4,
-},
-
+  {
+    id: "0",
+    title: "Real-time Analytics",
+    number: check,
+  },
+  {
+    id: "1",
+    title: "Customizable Widgets",
+    number: number2,
+  },
+  {
+    id: "2",
+    title: "Portfolio Overview",
+    number: number3,
+  },
+  {
+    id: "3",
+    title: "Advanced Charting Tools",
+    number: number4,
+  },
 ];
 
-export const avatarIcons = [
-avatar1,
-avatar2,
-avatar3,
-avatar4,
-avatar5,
-];
+export const avatarIcons = [avatar1, avatar2, avatar3, avatar4, avatar5];
 
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
+    title: "Sign Up",
+    text: "Create an account by signing up with your email address and setting up a password",
+    date: "STEP 1",
+    animationData: animation4,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
+    title: "Connect your Accounts",
+    text: "Connect your crypto exchange accounts (e.g., Binance, Coinbase) to CoinProphet for unified portfolio management.",
+    date: "STEP 2",
+    animationData: animation3,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
+    title: "Explore Features",
+    text: "Navigate through the dashboard to explore features such as real-time market data, portfolio tracking, and trade alerts.",
+    date: "STEP 3",
+    animationData: animation2,
+    
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
+    title: "Optimize Strategy with AI",
+    text: "Utilize advanced analytics and AI-driven insights to optimize your investment strategy, enhance your portfolio, and maximize returns.",
+    date: "STEP 4",
+    animationData: animation1,
+    colorful: true
   },
 ];
 
@@ -320,9 +315,15 @@ export const pricing = [
     description: "AI chatbot, personalized recommendations",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      { id: "0", name: "Real Time Market Data", included: true },
+      { id: "1", name: "Portfolio Management", included: false },
+      { id: "2", name: "Trade Alerts", included: false },
+      { id: "3", name: "Advanced Analytics", included: false },
+      { id: "4", name: "Customizable Dashboards", included: false },
+      { id: "5", name: "Portfolio Optimization Tools", included: false },
+      { id: "6", name: "AI-Powered Investment Suggestions", included: false },
+      { id: "7", name: "Automated Trading", included: false },
+      { id: "8", name: "Dedicated Customer Support", included: false },
     ],
   },
 
@@ -333,9 +334,15 @@ export const pricing = [
     description: "Advanced AI chatbot, priority support, analytics dashboard",
     price: "5.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      { id: "0", name: "Real Time Market Data", included: true },
+      { id: "1", name: "Portfolio Management", included: true },
+      { id: "2", name: "Trade Alerts", included: true },
+      { id: "3", name: "Advanced Analytics", included: false },
+      { id: "4", name: "Customizable Dashboards", included: false },
+      { id: "5", name: "Portfolio Optimization Tools", included: false },
+      { id: "6", name: "AI-Powered Investment Suggestions", included: false },
+      { id: "7", name: "Automated Trading", included: false },
+      { id: "8", name: "Dedicated Customer Support", included: false },
     ],
   },
   {
@@ -345,9 +352,15 @@ export const pricing = [
     description: "Advanced AI chatbot, priority support, analytics dashboard",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      { id: "0", name: "Real Time Market Data", included: true },
+      { id: "1", name: "Portfolio Management", included: true },
+      { id: "2", name: "Trade Alerts", included: true },
+      { id: "3", name: "Advanced Analytics", included: true },
+      { id: "4", name: "Customizable Dashboards", included: true },
+      { id: "5", name: "Portfolio Optimization Tools", included: true },
+      { id: "6", name: "AI-Powered Investment Suggestions", included: false },
+      { id: "7", name: "Automated Trading", included: false },
+      { id: "8", name: "Dedicated Customer Support", included: false },
     ],
   },
   {
@@ -357,9 +370,15 @@ export const pricing = [
     description: "Custom AI chatbot, advanced analytics, dedicated account",
     price: "28.99",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      { id: "0", name: "Real Time Market Data", included: true },
+      { id: "1", name: "Portfolio Management", included: true },
+      { id: "2", name: "Trade Alerts", included: true },
+      { id: "3", name: "Advanced Analytics", included: true },
+      { id: "4", name: "Customizable Dashboards", included: true },
+      { id: "5", name: "Portfolio Optimization Tools", included: true },
+      { id: "6", name: "AI-Powered Investment Suggestions", included: true },
+      { id: "7", name: "Automated Trading", included: true },
+      { id: "8", name: "Dedicated Customer Support", included: true },
     ],
   },
 ];
