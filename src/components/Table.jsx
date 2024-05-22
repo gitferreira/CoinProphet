@@ -62,7 +62,7 @@ const Table = () => {
             })
             .map((val) => {
               return (
-                <tr key={val.id} className="border-b ">
+                <tr key={val.id} className="border-b  hover:bg-table-gradient ">
                   <td className="w-[10rem] p-5  ">{val.rank} </td>
                   <td className="w-[10rem]  p-5 flex flex-col items-center">
                     <img

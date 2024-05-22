@@ -1,16 +1,13 @@
-
-
 import ButtonGradient from "../assets/svg/ButtonGradient";
-import Banner from "./Banner";
-import Benefits from "./Benefits";
-import Collaboration from "./Collaboration";
-import Footer from "./Footer";
-import Header from "./Header";
-import Hero from "./Hero";
-import Pricing from "./Pricing";
-import Roadmap from "./Roadmap";
-import Services from "./Services";
-import Table from "./Table";
+import Banner from "../components/Banner";
+import Benefits from "../components/Benefits";
+import Collaboration from "../components/Collaboration";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Pricing from "../components/Pricing";
+import Roadmap from "../components/Roadmap";
+import Services from "../components/Services";
+import Table from "../components/Table";
 
 const Home = () => {
   return (
@@ -25,7 +22,6 @@ const Home = () => {
         <Banner />
         <Pricing />
         <Roadmap />
-        <Footer />
       </div>
       <ButtonGradient />
     </>

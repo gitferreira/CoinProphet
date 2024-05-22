@@ -3,7 +3,6 @@ import Heading from "./Heading";
 import PricingList from "./PricingList";
 import Section from "./Section";
 
-
 const Pricing = () => {
   return (
     <Section crosses className="overflow-hidden" id="pricing">
@@ -19,15 +18,23 @@ const Pricing = () => {
             />
           </div>
         </div>
-        <Heading noBrackets="Start investing with CoinProphet" title="Get the Plan that suits You" />
+        <Heading
+          noBrackets="Start investing with CoinProphet"
+          title="Get the Plan that suits You"
+        />
 
         <div className="relative ">
-            <PricingList />
-
+          <PricingList />
         </div>
 
         <div className="flex justify-end mt-10 ">
-            <a className="text-xs font-code font-bold tracking-wider uppercase border-b " href="/pricing"> See the full details </a>
+          <a
+            className="text-xs font-code font-bold tracking-wider uppercase border-b "
+            href="/pricing"
+          >
+            {" "}
+            See the full details{" "}
+          </a>
         </div>
       </div>
     </Section>

@@ -13,8 +13,6 @@ import {
   number2,
   number3,
   number4,
-  chromecast,
-  disc02,
   discordBlack,
   facebook,
   file02,
@@ -24,18 +22,11 @@ import {
   notification3,
   notification4,
   plusSquare,
-  recording01,
-  recording03,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
   animation1,
   animation2,
   animation3,
   animation4,
   searchMd,
-  sliders04,
   telegram,
   twitter,
   yourlogo,
@@ -48,7 +39,6 @@ import {
   bitfinex,
   gemini,
   bitcoin,
-  bnb,
   cardano,
   xrp,
   doge,
@@ -61,28 +51,32 @@ import {
   avatar3,
   avatar4,
   avatar5,
+  blog1,
+  blog2,
+  blog3,
+  blog4,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Market Data",
+    url: "/market",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Features",
+    url: "/features",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Pricing",
+    url: "/pricing",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Blog",
+    url: "/blog",
   },
   {
     id: "4",
@@ -151,7 +145,6 @@ export const roadmap = [
     text: "Navigate through the dashboard to explore features such as real-time market data, portfolio tracking, and trade alerts.",
     date: "STEP 3",
     animationData: animation2,
-    
   },
   {
     id: "3",
@@ -159,11 +152,11 @@ export const roadmap = [
     text: "Utilize advanced analytics and AI-driven insights to optimize your investment strategy, enhance your portfolio, and maximize returns.",
     date: "STEP 4",
     animationData: animation1,
-    colorful: true
+    colorful: true,
   },
 ];
 
-export const numberIcons = [check, number2, number3];
+export const numberIcons = [check, number2, number3, number4];
 
 export const signupTexts = [
   {
@@ -186,6 +179,38 @@ export const signupTexts = [
     title: "Enhanced Security",
     description:
       "Safeguard assets with CoinProphet's security measures across exchanges like Binance, Gemini, ensuring peace of mind for your investments.",
+  },
+];
+
+export const featureTexts = [
+  {
+    id: "0",
+    number: 0,
+    title: "Unified Portfolio Management",
+    description:
+      " CoinProphet consolidates accounts, simplifying portfolio tracking, strategy optimization across exchanges like Binance, Coinbase, and more.",
+  },
+  {
+    id: "1",
+    number: 1,
+    title: "Cross-Platform Trading Insights",
+    description:
+      "CoinProphet offers market analysis, AI predictions across Binance, Kraken, etc., empowering users to maximize returns efficiently.",
+  },
+  {
+    id: "2",
+    number: 2,
+    title: "Enhanced Security",
+    description:
+      "Safeguard assets with CoinProphet's security measures across exchanges like Binance, Gemini, ensuring peace of mind for your investments.",
+  },
+
+  {
+    id: "3",
+    number: 3,
+    title: "Automated Trading",
+    description:
+      "Execute trades automatically with CoinProphet's AI-driven algorithms, optimizing entry and exit points to maximize your investment returns effortlessly.",
   },
 ];
 
@@ -458,6 +483,114 @@ export const benefits = [
     iconUrl: benefitIcon9,
     imageUrl: benefitImage2,
     light: true,
+  },
+];
+
+export const faq = [
+  {
+    id: "1",
+    title: "What is CoinProphet and how does it work?",
+    description:
+      "CoinProphet is an AI-powered crypto investment platform that provides real-time market data, advanced analytics, and personalized investment suggestions to help you optimize your crypto investments.",
+  },
+  {
+    id: "2",
+    title: "How do I connect my crypto exchange accounts to CoinProphet?",
+    description:
+      "After signing up, navigate to the 'Connect Accounts' section in the dashboard. Follow the instructions to link your crypto exchange accounts such as Binance, Coinbase, and others securely.",
+  },
+  {
+    id: "3",
+    title: "Is my personal and financial information secure with CoinProphet?",
+    description:
+      "Yes, CoinProphet employs advanced security protocols, including encryption and multi-factor authentication, to ensure that your personal and financial information is protected.",
+  },
+  {
+    id: "4",
+    title: "Can I use CoinProphet on my mobile device?",
+    description:
+      "Absolutely! CoinProphet has a mobile app that allows you to stay connected and manage your investments on the go, ensuring you never miss an opportunity.",
+  },
+  {
+    id: "5",
+    title: "What features are included in the free package?",
+    description:
+      "The free package includes basic portfolio tracking and access to real-time market data. You can upgrade to a higher plan for additional features like advanced analytics and AI-powered investment suggestions.",
+  },
+  {
+    id: "6",
+    title: "How does the AI-powered investment suggestion feature work?",
+    description:
+      "Our AI algorithms analyze market trends, historical data, and your investment preferences to provide personalized suggestions that help you make smarter investment decisions.",
+  },
+  {
+    id: "7",
+    title: "Can CoinProphet execute trades on my behalf?",
+    description:
+      "Yes, with the Pro Pack, CoinProphet offers automated trading based on predefined criteria and market signals, allowing you to execute trades automatically.",
+  },
+  {
+    id: "8",
+    title: "What kind of customer support does CoinProphet offer?",
+    description:
+      "CoinProphet provides dedicated customer support to all users. Pro Pack subscribers have access to priority support with dedicated assistance for technical issues and inquiries.",
+  },
+  {
+    id: "9",
+    title: "Can I customize my dashboard on CoinProphet?",
+    description:
+      "Yes, users with the Advanced Pack and above can personalize their dashboard with customizable widgets and layouts to suit their preferences.",
+  },
+  {
+    id: "10",
+    title: "How do I optimize my investment strategy with CoinProphet?",
+    description:
+      "Utilize CoinProphet's advanced analytics and AI-driven insights to analyze market trends, optimize your portfolio, and make data-driven investment decisions to maximize your returns.",
+  },
+];
+
+export const blogPosts = [
+  {
+    id: "future",
+    title:
+      "The Future of DeFi: Decentralized Finance",
+    text1:
+      "Explore the transformative impact of decentralized finance (DeFi) on the traditional banking system. Learn how DeFi platforms are enabling peer-to-peer transactions, reducing fees, and providing greater financial inclusion across the globe. This post dives into the latest innovations in DeFi, including smart contracts, yield farming, and decentralized exchanges (DEXs).",
+    text2:
+      "Understand the key projects driving this change, such as Ethereum, Aave, and Uniswap, and what these developments mean for the future of finance as we know it. Additionally, we will discuss the challenges DeFi faces, including regulatory concerns and security risks, and how the industry is addressing them to create a more resilient financial ecosystem.",
+    image: blog1,
+    number: "1",
+  },
+  {
+    id: "top-10",
+    title: "Top 10 Emerging Cryptocurrencies to Watch in 2024",
+    text1:
+      "Stay ahead of the curve by discovering the top 10 emerging cryptocurrencies that are set to make waves in 2024. From innovative technologies to promising use cases, find out which coins you should keep an eye on. This comprehensive guide covers the potential of each cryptocurrency, their unique features, and why they could be the next big thing in the crypto world. ",
+    text2:
+      "We will delve into projects focusing on privacy, scalability, and interoperability, such as Polkadot, Solana, and Chainlink. Additionally, learn about new tokens in decentralized finance (DeFi), non-fungible tokens (NFTs), and blockchain-based gaming, which are pushing the boundaries of what cryptocurrencies can achieve.",
+    image: blog2,
+    number: "2",
+  },
+  {
+    id: "crypto-security",
+    title: "Crypto Security: Best Practices for Protecting Your Digital Assets",
+    text1:
+      "In the ever-evolving world of cryptocurrencies, security is paramount. This blog post delves into the best practices for safeguarding your digital assets. Learn about secure wallets, the importance of two-factor authentication, and how to recognize and avoid phishing scams. We will also cover the role of hardware wallets versus software wallets, the benefits of cold storage, and how to securely manage your private keys.",
+    text2:
+      " By following these expert tips, you can ensure your crypto investments remain safe from hackers and other security threats. Moreover, we will explore recent security breaches in the crypto world, what went wrong, and how you can learn from these incidents to protect your assets.",
+    image: blog3,
+    number: "3",
+  },
+  {
+    id: "ai",
+    title:
+      "The Role of AI in Crypto Trading: Enhancing Strategies ",
+    text1:
+      "Discover how artificial intelligence is shaping the future of crypto trading. Learn about AI-driven trading bots, predictive analytics, and how these technologies can help investors optimize strategies and achieve higher returns in the volatile crypto market. This post explores the benefits of AI in trading, such as improved accuracy, speed, and the ability to process vast amounts of data.",
+    text2:
+      "We will discuss how AI algorithms analyze market trends, historical data, and social sentiment to make informed trading decisions. Additionally, understand the different types of AI trading bots available, from arbitrage bots to market-making bots, and how to choose the right one for your trading needs. Finally, we will look at the ethical considerations and potential risks associated with AI in trading, ensuring you are well-equipped to harness its power responsibly.",
+    image: blog4,
+    number: "4",
   },
 ];
 

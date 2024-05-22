@@ -1,16 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import ButtonGradient from "./assets/svg/ButtonGradient";
-import Banner from "./components/Banner";
-import Benefits from "./components/Benefits";
-import Collaboration from "./components/Collaboration";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Pricing from "./components/Pricing";
-import Roadmap from "./components/Roadmap";
-import Services from "./components/Services";
-import Table from "./components/Table";
-import Home from "./components/Home";
+import Home from "./pages/Home";
+import Market from "./pages/Market";
+import Footer from "./components/Footer";
+import PricingPage from "./pages/PricingPage";
+import Features from "./pages/Features";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
@@ -18,8 +13,12 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/course" element={<Table />} />
+        <Route path="/market" element={<Market />} />
+        <Route path="/pricing" element={<PricingPage />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
+      <Footer />
     </>
   );
 };
