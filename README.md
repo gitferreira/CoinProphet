@@ -8,7 +8,9 @@ CoinProphet is an advanced crypto investment platform leveraging AI to provide r
 Main Technologies Used:
 
 React: For building the dynamic and responsive user interface.
+
 Tailwind CSS: For efficient and scalable styling.
+
 CoinGecko API: For fetching real-time cryptocurrency market data.
 
 ![CoinProphet-home](src/assets/screenshot-app.png)
