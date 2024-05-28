@@ -11,7 +11,7 @@ React: For building the dynamic and responsive user interface.
 Tailwind CSS: For efficient and scalable styling.
 CoinGecko API: For fetching real-time cryptocurrency market data.
 
-![CoinProphet-home](assets/screenshot-app.png)
+![CoinProphet-home](src/assets/screenshot-app.png)
 
 ## Start the app 🚀
 
