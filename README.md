@@ -3,15 +3,16 @@ Live Demo: https://coin-prophet.vercel.app/
 
 ### Description 🍍 
 
-CoinProphet is an advanced crypto investment platform leveraging AI to provide real-time market data, analytics, and personalized investment suggestions. Built primarily with React and Tailwind CSS, and powered by the CoinGecko API, CoinProphet offers a seamless and efficient user experience for managing and optimizing cryptocurrency investments.
+CoinProphet is an advanced crypto investment platform leveraging AI to provide real-time market data, analytics, and personalized investment suggestions.
+Built primarily with React and Tailwind CSS, and powered by the CoinGecko API, CoinProphet offers a seamless and efficient user experience for managing and optimizing cryptocurrency investments.
 
-##Main Technologies Used:
+Main Technologies Used:
 
-#React: For building the dynamic and responsive user interface.
+React: For building the dynamic and responsive user interface.
 
-#Tailwind CSS: For efficient and scalable styling.
+Tailwind CSS: For efficient and scalable styling.
 
-#CoinGecko API: For fetching real-time cryptocurrency market data.
+CoinGecko API: For fetching real-time cryptocurrency market data.
 
 ![CoinProphet-home](src/assets/screenshot-app.png)
 
