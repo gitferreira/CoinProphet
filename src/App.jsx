@@ -6,10 +6,12 @@ import Footer from "./components/Footer";
 import PricingPage from "./pages/PricingPage";
 import Features from "./pages/Features";
 import Blog from "./pages/Blog";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <>
+    <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

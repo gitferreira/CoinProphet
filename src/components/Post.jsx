@@ -2,9 +2,9 @@ import Tagline from "./Tagline";
 
 const Post = ({ id, title, text1, text2, number, image }) => {
   return (
-    <div className="border border-n-1/10 rounded-2xl mb-6 " id={id}>
+    <div className="border border-n-1/10 rounded-2xl mb-6 w-[40%] md:w-[70%] lg:w-full " id={id}>
       <div className="p-4">
-        <h2 className="text-xl font-bold  mb-4 ml-2">{title} </h2>
+        <h2 className=" text-sm md:text-xl font-bold  mb-4 ml-2">{title} </h2>
         <img src={image} alt="placeholder" />
       </div>
 
